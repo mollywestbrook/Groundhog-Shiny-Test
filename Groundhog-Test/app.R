@@ -1,15 +1,11 @@
 #Making a really simple app with a graphic to test Groundhog Compatability
 
-library(groundhog)
-
-groundhog.day <- "2025-04-15"
-
-groundhog.library(shiny, groundhog.day)
-groundhog.library(here, groundhog.day)
-groundhog.library(tidyverse, groundhog.day)
-groundhog.library(data.table, groundhog.day)
-groundhog.library(plotly, groundhog.day)
-groundhog.library(bslib, groundhog.day)
+library(shiny)
+library(here)
+library(tidyverse)
+library(data.table)
+library(plotly)
+library(bslib)
 
 #organize iris set
 iris <- force(iris)
